@@ -69,12 +69,12 @@ const config = {
       // Replace with your project's social card
       image: 'img/signals-sharing-card-01.jpg',
       navbar: {
-        title: 'Home',
-        logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.png',
-          srcDark: 'img/logo_dark.png',
-        },
+        title: 'CMU TD 2023',
+        // logo: {
+        //   alt: 'My Site Logo',
+        //   src: 'img/logo.png',
+        //   srcDark: 'img/logo_dark.png',
+        // },
         items: [
           // {
           //   type: 'docSidebar',
