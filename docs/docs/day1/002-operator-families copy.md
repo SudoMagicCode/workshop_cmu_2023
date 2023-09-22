@@ -4,6 +4,8 @@ slug: /day1/op-families
 description: "An overview of operator families"
 ---
 
+![image](/img/day1/op-families-01.png)
+
 Operators are the building blocks of our TouchDesigner networks. In a typically TouchDesigner project you'll find a series of operators connected by wires into a network. These networks make up the code for your project. The operators in our networks are separated into families which also represent that kinds of data that they contain.
 
 ## TOPs
