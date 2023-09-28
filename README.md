@@ -1,6 +1,9 @@
 # TD Workshop CMU 2023
 
-The Frank-Ratchye STUDIO for Creative Inquiry is excited to offer a public-facing workshop with support from the National Endowment for the Arts and the Carnegie Mellon School of Drama. Seats are limited! 
+Open up the [CMU 2023 Workshop Repo]
+
+## From CMU
+The Frank-Ratchye STUDIO for Creative Inquiry is excited to offer a public-facing workshop with support from the National Endowment for the Arts and the Carnegie Mellon School of Drama.
 
 ## Getting Ready
 Before we begin, there are a few important things to keep in mind that will make the workshop run smoothly, and ensure you can focus on getting the most out of our time together. Below you’ll find a list of required first steps / tools to have with you, and some recommended steps to help you prepare.
@@ -259,7 +262,7 @@ You'll have about 30 minutes to complete your pressure project. After 30 minutes
 * [The Interactive & Immersive HQ]
 
 <!-- links -->
-
+[CMU 2023 Workshop Repo]: https://github.com/SudoMagicCode/workshop_cmu_2023
 [TouchOSC]:https://hexler.net/touchoscO
 [OSC]:https://opensoundcontrol.stanford.edu/
 [Learn TouchDesigner from Derivative]: https://learn.derivative.ca/
