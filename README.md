@@ -1,11 +1,20 @@
 # TD Workshop CMU 2023
 
-Open up the [CMU 2023 Workshop Repo]
+## TD Details
+
+* Workshop TouchDesigner version - 2022.33910 
+  * [downloads page](https://derivative.ca/download/archive)
+
+---
 
 ## From CMU
+
 The Frank-Ratchye STUDIO for Creative Inquiry is excited to offer a public-facing workshop with support from the National Endowment for the Arts and the Carnegie Mellon School of Drama.
 
+---
+
 ## Getting Ready
+
 Before we begin, there are a few important things to keep in mind that will make the workshop run smoothly, and ensure you can focus on getting the most out of our time together. Below you’ll find a list of required first steps / tools to have with you, and some recommended steps to help you prepare.
 
 ### REQUIRED
@@ -81,14 +90,14 @@ The first time you open any new application it can be frustrating or confusing a
 
 Learn more at [Navigating the TouchDesigner Environment](https://learn.derivative.ca/courses/100-fundamentals/lessons/101-navigating-the-environment/)
 
-# Operator Families
+## Operator Families
 
 
 ![image](readme-assets/day1/op-families-01.png)
 
 Operators are the building blocks of our TouchDesigner networks. In a typically TouchDesigner project you'll find a series of operators connected by wires into a network. These networks make up the code for your project. The operators in our networks are separated into families which also represent that kinds of data that they contain.
 
-## TOPs
+### TOPs
 
 > A picture’s worth a thousand words… in TouchDesigner we work with images all the time, and the texture operator family is our primary means of manipulating pixels. From importing files to building visual FX this course will look at how we work with images and video, and how we can manipulate them in TouchDesigner.
 
@@ -96,7 +105,7 @@ Learn more at [Working with TOPs](https://learn.derivative.ca/courses/100-fundam
 
 
 
-## CHOPs
+### CHOPs
 
 > Channel operators (CHOPs) are the signals and controls that bring a TouchDesigner project to life. CHOPs bring in controls from outside devices, allow us to work with Audio, build simple state machines, and animate elements in the network. This course will cover the principal aspects of the channel operator family, as well as examine use cases and mechanics that will help you build your first interactive project.
 
@@ -104,7 +113,7 @@ Learn more at [Working with CHOPs](https://learn.derivative.ca/courses/100-funda
 
 
 
-## SOPs
+### SOPs
 
 > With a long history in authoring 3D worlds and figures, TouchDesigner’s roots reach back to principles of non-destructive procedural geometry authoring. Surface Operators (SOPs) are the geometric and modeling primitives in the TouchDesigner environment; they’re also our introduction to the world of real time rendering and open a world of opportunities for creating both artistic and technical visual worlds
 
@@ -112,7 +121,7 @@ Learn more at [Working with SOPs](https://learn.derivative.ca/courses/100-fundam
 
 
 
-## DATs
+### DATs
 
 > Text, tables, and scripts – a little bit of Python can go a long way; from controlling how operators function in the network, to more complex state and preset machines. While it’s not required that you learn Python to use TouchDesigner, it does open a wide world of possibilities for expanding your projects and creativity. In this course we’ll dip our toe into the scripting waters while also learning about the flexibility and power of the text based operators in TouchDesigner.
 
@@ -120,7 +129,7 @@ Learn more at [Working with DATs](https://learn.derivative.ca/courses/100-fundam
 
 
 
-## COMPs
+### COMPs
 
 > Making something visually compelling only half the story, it’s also important to consider how you paint the world with the pixels you’ve manipulated. In this course we’ll look at the essential organization and output mechanics for displaying your work on a screen or through a projector. We’ll also look some the high level organizational capabilities in TouchDesigner, and how this can make your projects easier to navigate.
 
@@ -132,7 +141,7 @@ Learn more at [Working with COMPs - Network Organization](https://learn.derivati
 
 Learn more at [Working with COMPs - Building Interfaces](https://learn.derivative.ca/courses/100-fundamentals/lessons/106-comps-interface-building-and-controls/)
 
-# Realtime Rendering
+## Realtime Rendering
 
 ![image](readme-assets/day1/rendering-01.png)
 
@@ -142,23 +151,23 @@ There are lots of ways we might use real time rendering in TouchDesigner - from 
 
 Learn more at [TouchDesigner Basic Render Setup](https://learn.derivative.ca/courses/100-fundamentals/lessons/104-sops-rendering-3d-scenes/topic/basic-render-setup/)
 
-# Feedback and Post-process
+## Feedback and Post-process
 
 TBD
 
-# Live Camera Video FX
+## Live Camera Video FX
 
 TBD
 
-# Outputs & Custom Parameters
+## Outputs & Custom Parameters
 
 # Workshop Day 2
 
 An overview of what we'll cover on Day 2
 
-# I/O With Touch OSC
+## I/O With Touch OSC
 
-## Getting Started
+### Getting Started
 
 Building interfaces for your projects is no small feat and there are lots of ways to approach this challenge. While TouchDesigner itself has a built-in UI system it's often helpful to separate your UI schema from your project. You might create a web interface with something like tools like:
 
@@ -178,19 +187,17 @@ Any of the solutions above will help you create an interface that's on a differe
 *While it can be temping to just drop another OSC in CHOP or DAT into your network wherever you need one, this is generally considered bad practice. Every operator you use has some computational overhead associated with it, so it's best to only add the operators you need. But how do you only work with one OSC in op? You use select ops. A select op can route the contents of an operator to anywhere in your network. To put this into practice, at the root of your project create a base called `base_com` or `base_io`. Put your OSC In operator in this network, and then use select Ops to pull it's contents anywhere you need them.*
 
 
-## What is OSC?
+### What is OSC?
 
 > OpenSoundControl (OSC) is a data transport specification (an [encoding](https://opensoundcontrol.stanford.edu/encoding.html)) for realtime message communication among applications and hardware. OSC was developed by researchers [Matt Wright](https://ccrma.stanford.edu/matt-wright) and [Adrian Freed](http://www.adrianfreed.com/) during their time at the Center for New Music & Audio Technologies ([CNMAT](https://cnmat.berkeley.edu/)). OSC was originally designed as a highly accurate, low latency, lightweight, and flexible method of communication for use in realtime musical performance. They proposed OSC in 1997 as “[a new protocol for communication among computers, sound synthesizers, and other multimedia devices that is optimized for modern networking technology](https://opensoundcontrol.stanford.edu/publications/1997-Open-SoundControl-A-New-Protocol-for-Communicating-with-Sound-Synthesizers.html)”.
 
 learn more at the official page for  [OSC]
 
-### Intro to Intermediate Instancing
+## Instancing and Point Clouds
 
 When you're first getting started with instances it's easy to quickly feel like you've reached the limit of what you can create. As we start to explore some intermediate and advanced techniques for instancing there are more features of the `Geo COMP` we can use. We'll start by taking a closer look at how to work with many more instances by doing the computation for their movement in TOPs.
 
 ![image](readme-assets/day2/distruption-fields-01.png)
-
-### Instancing & Point Clouds
 
 Manipulating point clouds often means thinking about your points spatially. We'll explore how we can use some simple tricks with a bit of math to calculate distance, create bounding fields where we can manipulate our points, and how some of the secrets of the Point Transform TOP. 
 
@@ -207,25 +214,25 @@ In the reference `TOE` file you'll find examples on doing the following in TOPs:
 
 ![image](readme-assets/day2/reference-toe-screenshot1.png)
 
-# Audio Reactive Visuals
+## Audio Reactive Visuals
 
 There are lots of ways to add interactive elements to your projects, and it's not uncommon to want to make your project react to audio. 
 
-## Palette Tools | `audioAnalysis`
+### Palette Tools | `audioAnalysis`
 
 While we certainly could create our own audio analysis tool in TouchDesigner, we can also take advantage of an existing component in the palette called [audioAnalysis]. The audioAnalysis COMP takes an audio feed as an input and outputs several channels we can use to control our networks.
 
 ![image](readme-assets/day2/audio-reactivity-01.png)
 
-## Alternatives to TouchDesigner Audio Analysis
+### Alternatives to TouchDesigner Audio Analysis
 
 While it's often tempting to do everything you can in a single application, it can also be beneficial to break up the work across multiple applications. 
 
-### TDAbleton
+#### TDAbleton
 
 Depending on the type of audio integration you're looking for you may consider [TDAbleton] for achieving some of the audio interactivity you're after. The TDAbleton package can make integration with your Ableton set much easier, especially if you're focused on audio first. 
 
-### PD or MaxMSP
+#### PD or MaxMSP
 
 Other node based programming environments that allow for signal processing include [MaxMSP] and [Pure Data]. Some artist / engineers preferer to do do their audio analysis in one of these applications and then send the results to TouchDesigner via OSC or UDP Messaging. This alternative can ensure that audio analysis is a separate concern and runs in another thread - which may help improve your application optimization. 
 
@@ -233,7 +240,7 @@ Other node based programming environments that allow for signal processing inclu
 
 *If you're collaborating with another artist, it can often be beneficial to use network messages to synchronize your applications. For example, if one creator is focused on audio you can still receive messages over the network to control the visual elements you've created in TouchDesigner. The same techniques we've explored using OSC messages from a control surface can also be used when sending control messages from another computer or application.*
 
-# Pressure Project
+## Pressure Project
 
 Pressure what now? 
 
@@ -242,7 +249,7 @@ The intention of a pressure project is tackle a challenge or prompt in a short p
 **Code is only efficient or inefficient**  
 *As much as it'd be great if there was a single "right" way to solve a problem or achieve an outcome, programming is mostly about efficiency. There's not wrong way to solve a problem in TouchDesigner - it might be more efficient to use one technique over another, but it's important to explore and try different techniques. Don't be afraid to explore an idea just because it might slow down your computer.*
 
-## Project Outline
+### Project Outline
 
 Using the techniques we've explored during the workshop, create a project that:
 
@@ -250,7 +257,7 @@ Using the techniques we've explored during the workshop, create a project that:
 * some criteria here
 * some criteria here
 
-## Time
+### Time
 
 You'll have about 30 minutes to complete your pressure project. After 30 minutes you'll walk through the room to see what other participants have created.
 
