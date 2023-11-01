@@ -249,13 +249,17 @@ The intention of a pressure project is tackle a challenge or prompt in a short p
 **Code is only efficient or inefficient**  
 *As much as it'd be great if there was a single "right" way to solve a problem or achieve an outcome, programming is mostly about efficiency. There's not wrong way to solve a problem in TouchDesigner - it might be more efficient to use one technique over another, but it's important to explore and try different techniques. Don't be afraid to explore an idea just because it might slow down your computer.*
 
-### Project Outline
+### Prompt
 
-Using the techniques we've explored during the workshop, create a project that:
+Using the techniques we've explored during the workshop, create a component that responds to the prompt:
 
-* some criteria here
-* some criteria here
-* some criteria here
+* *a love letter to a place you've never been before*
+
+Project requirements:
+
+* Encapsulated in a `base`
+* Use Custom Parameters
+* Use an `in` and `out` to move textures or other elements into your component
 
 ### Time
 
