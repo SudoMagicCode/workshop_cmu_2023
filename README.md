@@ -267,6 +267,12 @@ You'll have about 30 minutes to complete your pressure project. After 30 minutes
 
 * [Learn TouchDesigner from Derivative]
 * [The Interactive & Immersive HQ]
+* [TouchOSC]
+* [OSC]
+* [Visual Studio Code]
+* [Derivative Blog]
+* [audioAnalysis]
+* [TDAbleton]
 
 <!-- links -->
 [CMU 2023 Workshop Repo]: https://github.com/SudoMagicCode/workshop_cmu_2023
