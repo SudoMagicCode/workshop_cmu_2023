@@ -141,6 +141,10 @@ Learn more at [Working with COMPs - Network Organization](https://learn.derivati
 
 Learn more at [Working with COMPs - Building Interfaces](https://learn.derivative.ca/courses/100-fundamentals/lessons/106-comps-interface-building-and-controls/)
 
+## Live Camera Video FX
+
+There's no shortage of things you can do with TouchDesigner, and one of the fun and exciting ways to get started learning TOPs is to build video FX networks and work with live cameras. In these examples we'll look at how we can approach several different techniques for working with video - both live footage and video files. We'll look at how simple transformations can create interesting effects with only a few nodes in our network. We'll also take a closer look at the mechanics of working with texture operators, and how you can take build your own reusable effects.
+
 ## Realtime Rendering
 
 ![image](readme-assets/day1/rendering-01.png)
@@ -151,15 +155,11 @@ There are lots of ways we might use real time rendering in TouchDesigner - from 
 
 Learn more at [TouchDesigner Basic Render Setup](https://learn.derivative.ca/courses/100-fundamentals/lessons/104-sops-rendering-3d-scenes/topic/basic-render-setup/)
 
-## Feedback and Post-process
-
-TBD
-
-## Live Camera Video FX
-
-TBD
-
 ## Outputs & Custom Parameters
+
+TBD
+
+---
 
 # Workshop Day 2
 
