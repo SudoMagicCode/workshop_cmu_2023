@@ -103,15 +103,11 @@ Operators are the building blocks of our TouchDesigner networks. In a typically 
 
 Learn more at [Working with TOPs](https://learn.derivative.ca/courses/100-fundamentals/lessons/102-tops-working-with-images/)
 
-
-
 ### CHOPs
 
 > Channel operators (CHOPs) are the signals and controls that bring a TouchDesigner project to life. CHOPs bring in controls from outside devices, allow us to work with Audio, build simple state machines, and animate elements in the network. This course will cover the principal aspects of the channel operator family, as well as examine use cases and mechanics that will help you build your first interactive project.
 
 Learn more at [Working with CHOPs](https://learn.derivative.ca/courses/100-fundamentals/lessons/103-chops-working-with-signals/)
-
-
 
 ### SOPs
 
@@ -119,15 +115,11 @@ Learn more at [Working with CHOPs](https://learn.derivative.ca/courses/100-funda
 
 Learn more at [Working with SOPs](https://learn.derivative.ca/courses/100-fundamentals/lessons/104-sops-rendering-3d-scenes/)
 
-
-
 ### DATs
 
 > Text, tables, and scripts – a little bit of Python can go a long way; from controlling how operators function in the network, to more complex state and preset machines. While it’s not required that you learn Python to use TouchDesigner, it does open a wide world of possibilities for expanding your projects and creativity. In this course we’ll dip our toe into the scripting waters while also learning about the flexibility and power of the text based operators in TouchDesigner.
 
 Learn more at [Working with DATs](https://learn.derivative.ca/courses/100-fundamentals/lessons/107-dats-scripting-python/)
-
-
 
 ### COMPs
 
@@ -135,11 +127,17 @@ Learn more at [Working with DATs](https://learn.derivative.ca/courses/100-fundam
 
 Learn more at [Working with COMPs - Network Organization](https://learn.derivative.ca/courses/100-fundamentals/lessons/105-comps-interfaces-organization-outputs/)
 
-
-
 > In addition to building aesthetically focused elements, TouchDesigner is also used to author full UI packages for applications, exhibition pieces, and installations. In this lesson, we’ll look at the building blocks for creating interactive user interfaces, as well as how to build resolution adaptable elements.
 
 Learn more at [Working with COMPs - Building Interfaces](https://learn.derivative.ca/courses/100-fundamentals/lessons/106-comps-interface-building-and-controls/)
+
+### Connecting Families
+
+While it’s great to see how we connect operators of like families together, most of the work we do with TouchDesigner often requires connecting operators of different families together. Here we’ll look at a few simple examples of how we can start building relationships between operators of different families, and how we can use these ideas to build responsive and interactive networks.
+
+## Live Camera Video FX
+
+There's no shortage of things you can do with TouchDesigner, and one of the fun and exciting ways to get started learning TOPs is to build video FX networks and work with live cameras. In these examples we'll look at how we can approach several different techniques for working with video - both live footage and video files. We'll look at how simple transformations can create interesting effects with only a few nodes in our network. We'll also take a closer look at the mechanics of working with texture operators, and how you can take build your own reusable effects.
 
 ## Realtime Rendering
 
@@ -151,15 +149,13 @@ There are lots of ways we might use real time rendering in TouchDesigner - from 
 
 Learn more at [TouchDesigner Basic Render Setup](https://learn.derivative.ca/courses/100-fundamentals/lessons/104-sops-rendering-3d-scenes/topic/basic-render-setup/)
 
-## Feedback and Post-process
-
-TBD
-
-## Live Camera Video FX
-
-TBD
-
 ## Outputs & Custom Parameters
+
+Custom parameters are an essential part of the modern TouchDesigner workflow. This feature makes it easy for us to create custom components that have their own controls without needing to build complete UIs. They also allow for a streamlined approach to creating sharable and reusable elements inside of TouchDesigner. In this section we’ll look at how to get started with using custom components.
+
+We’ll also look at how we can output the image and video contents of our network to Window COMP. This is how we can display content on another screen, projector, or other output device.
+
+---
 
 # Workshop Day 2
 
@@ -222,6 +218,8 @@ There are lots of ways to add interactive elements to your projects, and it's no
 
 While we certainly could create our own audio analysis tool in TouchDesigner, we can also take advantage of an existing component in the palette called [audioAnalysis]. The audioAnalysis COMP takes an audio feed as an input and outputs several channels we can use to control our networks.
 
+We’ll use the audioAnalysis COMP to build responsive and reactive behaviors that will animate our render network. We’ll build on what we learned on day 1 about rendering, and the techniques we’ve explored for using instances in our render networks.
+
 ![image](readme-assets/day2/audio-reactivity-01.png)
 
 ### Alternatives to TouchDesigner Audio Analysis
@@ -264,6 +262,10 @@ Project requirements:
 ### Time
 
 You'll have about 30 minutes to complete your pressure project. After 30 minutes you'll walk through the room to see what other participants have created.
+
+## Packaging
+
+Unfortunately we can’t build complete EXEs with TouchDesigner, but we can build components to share called TOX files, and we can embed files in project file (our TOE). Here we’ll look at a few of the techniques you might use when packaging up your project file either to share or save as a TOX or to build a TOE file that holds all of the assets your project needs to move to another computer.
 
 ----
 
