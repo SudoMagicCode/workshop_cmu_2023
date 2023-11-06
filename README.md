@@ -41,39 +41,33 @@ Take a look at some of the projects featured on the [Derivative Blog] to see wha
 
 ### Saturday 
 | Time    | Topic |
-| ---     | :--- | 
-| 1:00:PM | Intro, Context & Roundtable 
-| 1:30 PM | Navigating the Environment
-| 2:00 PM | Operator Families
-| 2:30 PM | Realtime Rendering
-| 3:00:PM | Feedback & Post-Process
-| 3:30 PM | 10 Minute Break
-| 3:45:PM | Live Camera Video FX
-| 4:00:PM | "                        "
-| 4:30:PM | Outputs & Custom Parameters
-| 5:00 PM | "                        "
-| 5:30:PM | "                        "
-| 6:00 PM | Wrap
+| ---     | :--- |
+| 1:00 PM | Intro, Context & Roundtable |
+| 1:30 PM | Navigating the Environment|
+| 2:00 PM | Operator Families|
+| 2:30 PM | Live Camera Video FX |
+| 3:15:PM | Break |
+| 3:30 PM | Realtime Rendering          |
+| 4:30 PM | Custom Parameters |
+| 5:30 PM | Setting up Outputs |
+| 6:00 PM | Wrap|
 
 ### Sunday
 | Time    | Topic |
-| ---     | :--- | 
-| 1:00:PM | I/O with TouchOSC
-| 1:30 PM | "                        "
-| 2:00 PM | Instancing & Point Clouds
-| 2:30 PM | "                        "
-| 3:00:PM | Audio Reactive Visuals
-| 3:30 PM | 10 Minute Break
-| 3:45 AM | Pressure Project
-| 4:00:PM | "                        "
-| 4:30:PM | Packaging Your Project
-| 5:00 PM | Wrap
+| ---     | :--- |
+| 1:00:PM | I/O with TouchOSC|
+| 2:00 PM | Instancing & Point Clouds|
+| 3:00:PM | Audio Reactive Visuals|
+| 3:30 PM | 10 Minute Break|
+| 3:45 AM | Pressure Project|
+| 4:30:PM | Packaging Your Project|
+| 5:00 PM | Wrap|
 
 ---
 
 # Workshop Day 1
 
-On our first day we'll focus on the basics. We'll start with a quick round of introductions and then dive into working with TouchDesigner. We'll start by looking at the user interface, and learning about the different operator families. We'll then get started right away by setting up a render network, and working with post processing effects. There are lots of ways we can manipulate video in TouchDesigner, and getting a firm handle on what image manipulation looks like will set us up for working with camera effects in the late afternoon. We'll warp the day by looking at creating custom parameters and outputting our content to another window or another screen. 
+On our first day we'll focus on the basics. We'll start with a quick round of introductions and then dive into working with TouchDesigner. We'll start by looking at the user interface, and learning abohut the different operator families. We'll then get started right away by setting up a render network, and working with post processing effects. There are lots of ways we can manipulate video in TouchDesigner, and getting a firm handle on what image manipulation looks like will set us up for working with camera effects in the late afternoon. We'll warp the day by looking at creating custom parameters and outputting our content to another window or another screen. 
 
 During the workshop we'll create everything together so you have the hands on experience of building networks yourself. While that's great for working in the moment, sometimes you want (or need) an extra reference. The workshop repo also contains a file that's the end of day file - this contains all of the exercises we've gone over together in the workshop. This can be helpful as a reference, but also if you get stuck and need to compare you work to an example.
 
@@ -149,7 +143,7 @@ There are lots of ways we might use real time rendering in TouchDesigner - from 
 
 Learn more at [TouchDesigner Basic Render Setup](https://learn.derivative.ca/courses/100-fundamentals/lessons/104-sops-rendering-3d-scenes/topic/basic-render-setup/)
 
-## Outputs & Custom Parameters
+## Custom Pars & Outputs
 
 Custom parameters are an essential part of the modern TouchDesigner workflow. This feature makes it easy for us to create custom components that have their own controls without needing to build complete UIs. They also allow for a streamlined approach to creating sharable and reusable elements inside of TouchDesigner. In this section we’ll look at how to get started with using custom components.
 
