@@ -2,7 +2,7 @@
 
 ## TD Details
 
-* Workshop TouchDesigner version - 2022.33910 
+* Workshop TouchDesigner version - 2022.35320
   * [downloads page](https://derivative.ca/download/archive)
 
 ---
