@@ -57,10 +57,9 @@ Take a look at some of the projects featured on the [Derivative Blog] to see wha
 | ---     | :--- |
 | 1:00:PM | I/O with TouchOSC|
 | 2:00 PM | Instancing & Point Clouds|
-| 3:00:PM | Audio Reactive Visuals|
-| 3:30 PM | 10 Minute Break|
-| 3:45 AM | Pressure Project|
-| 4:30:PM | Packaging Your Project|
+| 3:00 PM | 10 Minute Break|
+| 3:15 PM | Audio Reactive Visuals|
+| 4:00 PM | Pressure Project|
 | 5:00 PM | Wrap|
 
 ---
