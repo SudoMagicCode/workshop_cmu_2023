@@ -244,8 +244,10 @@ The intention of a pressure project is tackle a challenge or prompt in a short p
 
 Using the techniques we've explored during the workshop, create a component that responds to the prompt:
 
-* *a love letter to a place you've never been before*
-OR
+* *a love letter to a place you've never been before*  
+
+OR  
+
 * *a love letter to a place you can longer return to*
 
 Project requirements:
