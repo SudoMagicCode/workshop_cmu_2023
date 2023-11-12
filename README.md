@@ -57,10 +57,9 @@ Take a look at some of the projects featured on the [Derivative Blog] to see wha
 | ---     | :--- |
 | 1:00:PM | I/O with TouchOSC|
 | 2:00 PM | Instancing & Point Clouds|
-| 3:00:PM | Audio Reactive Visuals|
-| 3:30 PM | 10 Minute Break|
-| 3:45 AM | Pressure Project|
-| 4:30:PM | Packaging Your Project|
+| 3:00 PM | 10 Minute Break|
+| 3:15 PM | Audio Reactive Visuals|
+| 4:00 PM | Pressure Project|
 | 5:00 PM | Wrap|
 
 ---
@@ -245,8 +244,10 @@ The intention of a pressure project is tackle a challenge or prompt in a short p
 
 Using the techniques we've explored during the workshop, create a component that responds to the prompt:
 
-* *a love letter to a place you've never been before*
-OR
+* *a love letter to a place you've never been before*  
+
+OR  
+
 * *a love letter to a place you can longer return to*
 
 Project requirements:
